@@ -1,0 +1,13 @@
+const { celsiusToFahrenheit } = require('./converters.js');
+
+const celsiusInput = process.argv[2]; 
+const fahrenheitValue = celsiusToFahrenheit(celsiusInput);
+
+function ( fahrenheit) {
+  return (fahrenheit - 32) * (5/9);
+};
+
+
+console.log(`${celsiusInput} degrees Celsius = ${fahrenheitValue} degrees Fahrenheit`);
+
+
