@@ -1,0 +1,17 @@
+
+.container{
+    background-color: #000;
+    display: flex;
+    
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.nav-link
+{
+    margin: 5px;
+}

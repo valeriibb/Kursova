@@ -1,0 +1,28 @@
+.navigationbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+  }
+  
+  a:nth-child(3) {
+    margin-right: 0; 
+  }
+  
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .center-logo {
+    display: block;
+    margin: 0 auto; /* Автоматичне центрування по горизонталі */
+  }
+  

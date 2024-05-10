@@ -1,0 +1,11 @@
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+

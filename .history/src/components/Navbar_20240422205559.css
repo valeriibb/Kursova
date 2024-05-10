@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navigationbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* колір фону */
+    padding: 15px 0; /* відступи */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* тінь */
+    z-index: 1000; /* забезпечити, що навігаційна панель завжди буде поверх інших елементів */
+    transition: background-color 0.3s ease; /* плавний перехід для зміни кольору фону */
+  }
+  
+  .navigationbar nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigationbar a {
+    text-decoration: none;
+    color: #333333; /* колір тексту */
+    margin: 0 10px; /* відступи між посиланнями */
+  }
+  
+  .navigationbar img {
+    width: 100px; /* ширина логотипу */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* центрування логотипу по горизонталі */
+  }
+  
+  .fixed {
+    position: fixed;
+    background-color: #ffffff; /* колір фону для фіксованої панелі */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* тінь */
+  }
+  

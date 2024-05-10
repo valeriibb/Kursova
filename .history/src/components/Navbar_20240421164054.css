@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  width: 100%; /* Розширюємо навбар по всій ширині сторінки */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Максимальна ширина контейнера для вміщення контенту */
+  margin: 0 auto; /* Центруємо контейнер на сторінці */
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-nav-right {
+  display: flex;
+  align-items: center;
+}
